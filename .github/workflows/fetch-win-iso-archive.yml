@@ -228,19 +228,19 @@ jobs:
           # --enable-http-pipelining=true    启用 HTTP 管线化（提高吞吐）
           # --content-disposition=true       遵循服务器的 Content-Disposition 文件名
           # "$ISO_URL"                       下载地址，用双引号包裹防止空格问题
+          # --max-overall-download-limit=2M \
           aria2c \
             --dir=./original \
-            --split=4 \
-            --max-connection-per-server=4 \
-            --min-split-size=4M \
-            --max-overall-download-limit=2M \
+            --split=32 \
+            --max-connection-per-server=16 \
+            --min-split-size=16M \
             --file-allocation=none \
             --continue=true \
-            --max-tries=20 \
-            --retry-wait=30 \
+            --max-tries=8 \
+            --retry-wait=60 \
             --timeout=120 \
             --connect-timeout=60 \
-            --disk-cache=32M \
+            --disk-cache=64M \
             --console-log-level=warn \
             --summary-interval=3 \
             --async-dns=true \
