@@ -101,6 +101,12 @@ jobs:
         shell: pwsh
         working-directory: ./patcherScripts
         run: |
+          Copy-Item ../autounattend.xml . -Force
+          $c = [IO.File]::ReadAllText('Start.cmd')
+          if ($c -notmatch 'autounattend') {
+            $line = 'if exist "%~dp0autounattend.xml" copy /y "%~dp0autounattend.xml" "%~dp0%ISODir%\autounattend.xml" >nul'
+            [IO.File]::WriteAllText('Start.cmd', $c.Replace('call W10UI.cmd', "$line`r`ncall W10UI.cmd"))
+          }
           & cmd /c "(echo 9 & echo 9 & echo 9) | Start.cmd" 2>&1 | Tee-Object -FilePath "./update-win10-ltsb2016-x64.log" -Encoding utf8
           if ($LASTEXITCODE -ne 0) { throw "Start.cmd failed with exit code $LASTEXITCODE" }
 
@@ -112,8 +118,8 @@ jobs:
           $DistDir      = "dist_win10ltsb2016x64"
           $RevisionName = "win10-ltsb2016-x64"
           $MaxVolMB     = 1895
-          $Reserve      = 16
-          $MaxDiffMB    = 128
+          $Reserve      = 8
+          $MaxDiffMB    = 64
 
           New-Item -Path $DistDir -ItemType Directory -Force | Out-Null
           Remove-Item -Path "./patcherScripts/win10ltsb2016x64.iso" -Force -ErrorAction SilentlyContinue

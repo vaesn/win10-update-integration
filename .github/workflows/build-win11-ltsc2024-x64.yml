@@ -24,18 +24,14 @@ jobs:
           $maxAttempts = 5
           $delaySeconds = 30
           $repoUrl = 'https://github.com/adavak/Win_ISO_Patching_Scripts.git'
-
           for ($i = 1; $i -le $maxAttempts; $i++) {
             Write-Host "Cloning patch scripts (attempt $i/$maxAttempts)..."
-
             if (Test-Path patcherScripts) { Remove-Item patcherScripts -Recurse -Force }
-
             & git clone --depth 1 $repoUrl patcherScripts
             if ($LASTEXITCODE -eq 0) {
               Write-Host "Clone succeeded"
               break
             }
-
             Write-Host "git clone failed with exit code $LASTEXITCODE"
             if ($i -lt $maxAttempts) {
               Write-Host "Retrying in $delaySeconds seconds..."
@@ -65,6 +61,12 @@ jobs:
         shell: pwsh
         working-directory: ./patcherScripts
         run: |
+          Copy-Item ../autounattend.xml . -Force
+          $c = [IO.File]::ReadAllText('Start.cmd')
+          if ($c -notmatch 'autounattend') {
+            $line = 'if exist "%~dp0autounattend.xml" copy /y "%~dp0autounattend.xml" "%~dp0%ISODir%\autounattend.xml" >nul'
+            [IO.File]::WriteAllText('Start.cmd', $c.Replace('call W10UI.cmd', "$line`r`ncall W10UI.cmd"))
+          }
           & cmd /c "(echo 9 & echo 9 & echo 9) | Start.cmd" 2>&1 | Tee-Object -FilePath "./update-win11-ltsc2024-x64.log" -Encoding utf8
           if ($LASTEXITCODE -ne 0) { throw "Start.cmd failed with exit code $LASTEXITCODE" }
 
@@ -75,9 +77,9 @@ jobs:
           $SourceDir    = "./patcherScripts/assets"
           $DistDir      = "dist_win11ltsc2024x64"
           $RevisionName = "win11-ltsc2024-x64"
-          $MaxVolMB     = 1985
-          $Reserve      = 16
-          $MaxDiffMB    = 128
+          $MaxVolMB     = 1895
+          $Reserve      = 8
+          $MaxDiffMB    = 64
 
           New-Item -Path $DistDir -ItemType Directory -Force | Out-Null
           Remove-Item -Path "./patcherScripts/win11ltsc2024x64.iso" -Force -ErrorAction SilentlyContinue
