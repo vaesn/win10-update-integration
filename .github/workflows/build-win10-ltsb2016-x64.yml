@@ -11,7 +11,7 @@ on:
         description: "Delete past completed runs of this workflow (keep Actions page clean)"
         required: true
         type: boolean
-        default: true
+        default: false
   schedule:
     - cron: "16 12 18 * *"
 permissions:
@@ -237,7 +237,7 @@ jobs:
           Write-Host "========================================" -ForegroundColor Cyan
 
       - name: Step-5 Delete Old Release
-        if: ${{ github.event.inputs.delete_old_release == 'true' }}
+        if: ${{ github.event_name == 'schedule' || inputs.delete_old_release }}
         continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -245,7 +245,7 @@ jobs:
         run: gh release delete "${{ env.REVISION_NAME }}" --cleanup-tag -y || true
 
       - name: Step-6 Delete past completed runs of this workflow
-        if: ${{ github.event.inputs.delete_old_runs == 'true' }}
+        if: ${{ github.event_name == 'schedule' || inputs.delete_old_release }}
         continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
