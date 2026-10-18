@@ -4,14 +4,14 @@ on:
     inputs:
       delete_old_release:
         description: "Delete existing Release with same tag before upload (uncheck to APPEND to it)"
-        required: false
+        required: true
         type: boolean
-        default: false
+        default: true
       delete_old_runs:
         description: "Delete past completed runs of this workflow (keep Actions page clean)"
-        required: false
+        required: true
         type: boolean
-        default: false
+        default: true
   schedule:
     - cron: "16 12 18 * *"
 permissions:
