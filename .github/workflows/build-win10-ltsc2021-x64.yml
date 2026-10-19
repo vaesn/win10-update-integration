@@ -55,7 +55,7 @@ jobs:
           Remove-Item -Path "*.7z.*" -Force
           New-Item -ItemType Directory -Force -Path "assets"
           Move-Item -Path "../W10UI.ini" -Destination "./W10UI.ini" -Force
-          Remove-Item -Path "../Drivers/ALL/w11" -Recurse -Force
+          # Remove-Item -Path "../Drivers/ALL/w11" -Recurse -Force
           Get-ChildItem -Recurse -File -Force | Where-Object { $_.FullName -notmatch '\\(Drivers|\.git|\.github)(\\|$)' }
 
       - name: Step-3 Update By Win_ISO_Patching_Scripts
@@ -209,7 +209,7 @@ jobs:
           Write-Host "========================================" -ForegroundColor Cyan
 
       - name: Step-5 Delete Old Release
-        if: ${{ always() }}
+        if: ${{ success() }}
         continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -217,7 +217,7 @@ jobs:
         run: gh release delete "${{ env.REVISION_NAME }}" --cleanup-tag -y || true
 
       - name: Step-6 Delete past completed runs of this workflow
-        if: ${{ always() }}
+        if: ${{ success() }}
         continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
