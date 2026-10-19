@@ -4,74 +4,56 @@
 
 ## Original
 
-- **_Windows 10 LTSB 2016 x64_**
-  - cn_windows_10_enterprise_2016_ltsb_x64_dvd_9060409.iso
-  
-  <br />
-
-- **_Windows 10 LTSC 2019 x64_**
-  - cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso
-  
-  <br />
-
-- **_Windows 10 LTSC 2021 x64_**
-  - zh-cn_windows_10_enterprise_ltsc_2021_x64_dvd_033b7312.iso
-
-  <br />
-
-- **_Windows 11 LTSC 2024 x64_**
-  - zh-cn_windows_11_enterprise_ltsc_2024_x64_dvd_cff9cd2d.iso
-
-  <br />
-
-- **_Windows 10 22H2 x64_**
-  - zh-cn_windows_10_business_editions_version_22h2_updated_oct_2025_x64_dvd_d4e92df7.iso
-
-  <br />
+| Version | Original |
+| :----------------------- | :----------------------------------------------------------- |
+| Windows 10 LTSB 2016 x64 | `cn_windows_10_enterprise_2016_ltsb_x64_dvd_9060409.iso` |
+| Windows 10 LTSC 2019 x64 | `cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso` |
+| Windows 10 LTSC 2021 x64 | `zh-cn_windows_10_enterprise_ltsc_2021_x64_dvd_033b7312.iso` |
+| Windows 11 LTSC 2024 x64 | `zh-cn_windows_11_enterprise_ltsc_2024_x64_dvd_cff9cd2d.iso` |
+| Windows 10 22H2 x64 | `zh-cn_windows_10_business_editions_version_22h2_updated_oct_2025_x64_dvd_d4e92df7.iso` |
 
 ## Update
 
-<br />
-
-- **_Windows 10 LTSB 2016 x64_**
+### Windows 10 LTSB 2016 x64
 
 <!-- win10-ltsb2016-x64 -->
-14393.9612.261012-0442.RS1_RELEASE_CLIENT_X64FRE_ZH-CN_cb29dbc9.iso (2026-10-19 08:48:10 UTC)
+[14393.9612.261012-0442.RS1_RELEASE_CLIENT_X64FRE_ZH-CN_cb29dbc9.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsb2016-x64)
+
+(2026-10-19 08:48:10 UTC)
 <!-- /win10-ltsb2016-x64 -->
 
-<br />
-
-- **_Windows 10 LTSC 2019 x64_**
+### Windows 10 LTSC 2019 x64
 
 <!-- win10-ltsc2019-x64 -->
-17763.9376.261009-2229.RS5_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_594d2ec7.iso (2026-10-19 08:50:08 UTC)
+[17763.9376.261009-2229.RS5_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_594d2ec7.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsc2019-x64)
+
+(2026-10-19 08:50:08 UTC)
 <!-- /win10-ltsc2019-x64 -->
 
-<br />
-
-- **_Windows 10 LTSC 2021 x64_**
+### Windows 10 LTSC 2021 x64
 
 <!-- win10-ltsc2021-x64 -->
-19044.7807.261013-0444.21H2_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_1e3d05de.iso (2026-10-19 09:18:29 UTC)
+[19044.7807.261013-0444.21H2_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_1e3d05de.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsc2021-x64)
+
+(2026-10-19 09:18:29 UTC)
 <!-- /win10-ltsc2021-x64 -->
 
-<br />
-
-- **_Windows 11 LTSC 2024 x64_**
+### Windows 11 LTSC 2024 x64
 
 <!-- win11-ltsc2024-x64 -->
-26300.9711.261009-2244.26H2_GE_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_2f9dd72c.iso (2026-10-19 08:59:58 UTC)
+
+[26300.9711.261009-2244.26H2_GE_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_2f9dd72c.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win11-ltsc2024-x64)
+
+(2026-10-19 08:59:58 UTC)
 <!-- /win11-ltsc2024-x64 -->
 
-<br />
-
-- **_Windows 10 22H2 x64_**
+### Windows 10 22H2 x64
 
 <!-- win10-22h2-x64 -->
-19045.7807.261013-0444.22H2_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_1289101d.iso (2026-10-19 11:41:39 UTC)
-<!-- /win10-22h2-x64 -->
+[19045.7807.261013-0444.22H2_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_1289101d.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-22h2-x64)
 
-<br />
+(2026-10-19 11:41:39 UTC)
+<!-- /win10-22h2-x64 -->
 
 ## Tools
 
