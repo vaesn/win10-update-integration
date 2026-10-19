@@ -21,9 +21,9 @@
 ### Windows 10 LTSC 2021 x64
 
 <!-- win10-ltsc2021-x64 -->
-[19044.7807.261013-0444.21H2_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_1e3d05de.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsc2021-x64)
+[19044.7807.261013-0444.21H2_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_77cfd3da.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsc2021-x64)
 
-(2026-10-19 09:18:29 UTC)
+(2026-10-19 23:30:51 UTC)
 <!-- /win10-ltsc2021-x64 -->
 
 ### Windows 10 LTSC 2019 x64
