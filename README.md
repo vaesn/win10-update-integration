@@ -5,10 +5,9 @@
 ### Windows 11 LTSC 2024 x64
 
 <!-- win11-ltsc2024-x64 -->
+[26300.9711.261009-2244.26H2_GE_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_3fd9bcc5.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win11-ltsc2024-x64)
 
-[26300.9711.261009-2244.26H2_GE_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_2f9dd72c.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win11-ltsc2024-x64)
-
-(2026-10-19 08:59:58 UTC)
+(2026-10-19 21:14:52 UTC)
 <!-- /win11-ltsc2024-x64 -->
 
 ### Windows 10 22H2 x64
