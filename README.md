@@ -2,30 +2,6 @@
 
 ## Update
 
-### Windows 10 LTSB 2016 x64
-
-<!-- win10-ltsb2016-x64 -->
-[14393.9612.261012-0442.RS1_RELEASE_CLIENT_X64FRE_ZH-CN_cb29dbc9.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsb2016-x64)
-
-(2026-10-19 08:48:10 UTC)
-<!-- /win10-ltsb2016-x64 -->
-
-### Windows 10 LTSC 2019 x64
-
-<!-- win10-ltsc2019-x64 -->
-[17763.9376.261009-2229.RS5_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_05ee213e.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsc2019-x64)
-
-(2026-10-19 13:50:24 UTC)
-<!-- /win10-ltsc2019-x64 -->
-
-### Windows 10 LTSC 2021 x64
-
-<!-- win10-ltsc2021-x64 -->
-[19044.7807.261013-0444.21H2_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_1e3d05de.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsc2021-x64)
-
-(2026-10-19 09:18:29 UTC)
-<!-- /win10-ltsc2021-x64 -->
-
 ### Windows 11 LTSC 2024 x64
 
 <!-- win11-ltsc2024-x64 -->
@@ -42,6 +18,30 @@
 
 (2026-10-19 11:41:39 UTC)
 <!-- /win10-22h2-x64 -->
+
+### Windows 10 LTSC 2021 x64
+
+<!-- win10-ltsc2021-x64 -->
+[19044.7807.261013-0444.21H2_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_1e3d05de.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsc2021-x64)
+
+(2026-10-19 09:18:29 UTC)
+<!-- /win10-ltsc2021-x64 -->
+
+### Windows 10 LTSC 2019 x64
+
+<!-- win10-ltsc2019-x64 -->
+[17763.9376.261009-2229.RS5_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_05ee213e.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsc2019-x64)
+
+(2026-10-19 13:50:24 UTC)
+<!-- /win10-ltsc2019-x64 -->
+
+### Windows 10 LTSB 2016 x64
+
+<!-- win10-ltsb2016-x64 -->
+[14393.9612.261012-0442.RS1_RELEASE_CLIENT_X64FRE_ZH-CN_cb29dbc9.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsb2016-x64)
+
+(2026-10-19 08:48:10 UTC)
+<!-- /win10-ltsb2016-x64 -->
 
 ## Original
 
