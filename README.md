@@ -1,17 +1,5 @@
 # win10-update-integration
 
-## Automate Windows 10/11 LTSC update integration with Win_ISO_Patching_Scripts
-
-## Original
-
-| Version | Original |
-| :----------------------- | :----------------------------------------------------------- |
-| Windows 10 LTSB 2016 x64 | `cn_windows_10_enterprise_2016_ltsb_x64_dvd_9060409.iso` |
-| Windows 10 LTSC 2019 x64 | `cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso` |
-| Windows 10 LTSC 2021 x64 | `zh-cn_windows_10_enterprise_ltsc_2021_x64_dvd_033b7312.iso` |
-| Windows 11 LTSC 2024 x64 | `zh-cn_windows_11_enterprise_ltsc_2024_x64_dvd_cff9cd2d.iso` |
-| Windows 10 22H2 x64 | `zh-cn_windows_10_business_editions_version_22h2_updated_oct_2025_x64_dvd_d4e92df7.iso` |
-
 ## Update
 
 ### Windows 10 LTSB 2016 x64
@@ -54,6 +42,16 @@
 
 (2026-10-19 11:41:39 UTC)
 <!-- /win10-22h2-x64 -->
+
+## Original
+
+| Version | Original |
+| :----------------------- | :----------------------------------------------------------- |
+| Windows 10 LTSB 2016 x64 | `cn_windows_10_enterprise_2016_ltsb_x64_dvd_9060409.iso` |
+| Windows 10 LTSC 2019 x64 | `cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso` |
+| Windows 10 LTSC 2021 x64 | `zh-cn_windows_10_enterprise_ltsc_2021_x64_dvd_033b7312.iso` |
+| Windows 11 LTSC 2024 x64 | `zh-cn_windows_11_enterprise_ltsc_2024_x64_dvd_cff9cd2d.iso` |
+| Windows 10 22H2 x64 | `zh-cn_windows_10_business_editions_version_22h2_updated_oct_2025_x64_dvd_d4e92df7.iso` |
 
 ## Tools
 
