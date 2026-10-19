@@ -25,7 +25,7 @@
   <br />
 
 - **_Windows 10 22H2 x64_**
-  - cn_windows_10_consumer_editions_version_22h2_updated_oct_2025_x64_dvd_38efd00d.iso
+  - zh-cn_windows_10_business_editions_version_22h2_updated_oct_2025_x64_dvd_d4e92df7.iso
 
   <br />
 
