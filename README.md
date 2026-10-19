@@ -37,9 +37,9 @@
 ### Windows 10 LTSB 2016 x64
 
 <!-- win10-ltsb2016-x64 -->
-[14393.9612.261012-0442.RS1_RELEASE_CLIENT_X64FRE_ZH-CN_cb29dbc9.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsb2016-x64)
+[14393.9612.261012-0442.RS1_RELEASE_CLIENT_X64FRE_ZH-CN_e1cf4262.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsb2016-x64)
 
-(2026-10-19 08:48:10 UTC)
+(2026-10-19 23:36:04 UTC)
 <!-- /win10-ltsb2016-x64 -->
 
 ## Original
