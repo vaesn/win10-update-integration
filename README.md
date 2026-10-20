@@ -13,9 +13,9 @@
 ### Windows 10 22H2 x64
 
 <!-- win10-22h2-x64 -->
-[19045.7807.261013-0444.22H2_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_1289101d.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-22h2-x64)
+[19045.7807.261013-0444.22H2_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_3dfda077.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-22h2-x64)
 
-(2026-10-19 11:41:39 UTC)
+(2026-10-20 02:08:52 UTC)
 <!-- /win10-22h2-x64 -->
 
 ### Windows 10 LTSC 2021 x64
