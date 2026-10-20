@@ -2,7 +2,7 @@ name: update-win10-ltsc2021-x64
 on:
   workflow_dispatch:
   schedule:
-    - cron: "43 16 18 * *"
+    - cron: "36 3 5,16,27 * *"
 permissions:
   contents: write
   actions: write

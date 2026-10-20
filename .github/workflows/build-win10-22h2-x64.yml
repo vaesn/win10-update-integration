@@ -2,7 +2,7 @@ name: update-win10-22h2-x64
 on:
   workflow_dispatch:
   schedule:
-    - cron: "26 20 18 * *"
+    - cron: "06 1 5,16,27 * *"
 permissions:
   contents: write
   actions: write

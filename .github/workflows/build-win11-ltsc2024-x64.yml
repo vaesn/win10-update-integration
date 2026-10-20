@@ -2,7 +2,7 @@ name: update-win11-ltsc2024-x64
 on:
   workflow_dispatch:
   schedule:
-    - cron: "28 18 18 * *"
+    - cron: "46 3 5,16,27 * *"
 permissions:
   contents: write
   actions: write
