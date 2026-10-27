@@ -29,9 +29,9 @@
 ### *Windows 10 LTSC 2019 x64*
 
 <!-- win10-ltsc2019-x64 -->
-[17763.9376.261009-2229.RS5_RELEASE_SVC_PROD1_CLIENT_X64FRE_ZH-CN_40343679.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsc2019-x64)
+[17763.9378.261024-1408.RS5_RELEASE_SVC_IM_CLIENT_X64FRE_ZH-CN_b535b524.iso](https://github.com/vaesn/win10-update-integration/releases/tag/win10-ltsc2019-x64)
 
-(2026-10-19 23:26:06 UTC)
+(2026-10-27 10:09:32 UTC)
 <!-- /win10-ltsc2019-x64 -->
 
 ### *Windows 10 LTSB 2016 x64*
